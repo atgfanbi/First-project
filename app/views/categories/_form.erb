@@ -1,0 +1,18 @@
+<%= form_for @category do |f| %>
+    <% if @category.errors.any? %>
+        <div class="error">
+          <h3>Errors:</h3>
+          <% @category.errors.full_messages.each do |msg| %>
+              <div><%= msg %></div>
+          <% end %>
+        </div>
+    <% end %>
+    <p>
+      <%= f.label :name %><br>
+      <%= f.text_field :name %>
+    </p>
+    <p><%= f.check_box :is_income %> income category</p>
+    <p>
+      <%= f.submit %>
+    </p>
+<% end %>

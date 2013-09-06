@@ -1,0 +1,20 @@
+<p>
+  <div>Category name: <span class=" bold under"><%= @category.name %></span></div>
+</p>
+
+<p class="under">Current articles:</p>
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Price</th>
+    <th>Description</th>
+  </tr>
+<%= render @category.money_moves %>
+</table>
+
+<div class="border block">
+    <p class="under">Add new article:</p>
+    <%= render "money_moves/form" %>
+</div>
+
+<p><%= link_to 'Back', categories_path %>  | <%= link_to 'Edit', edit_category_path(@category) %></p>

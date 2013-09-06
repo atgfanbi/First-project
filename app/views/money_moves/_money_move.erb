@@ -1,0 +1,7 @@
+<tr>
+    <td><%= money_move.date %></td>
+    <td><%= money_move.price %></td>
+    <td><%= money_move.description %></td>
+    <td><%= link_to 'Edit', edit_money_move_path(money_move) %></td>
+    <td><%= link_to 'Delete', [money_move.category, money_move], method: :delete, data: { confirm: 'Are you sure?' } %></td>
+</tr>

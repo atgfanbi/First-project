@@ -1,0 +1,35 @@
+<h3>Report of incomes and expenses.</h3>
+<table >
+    <%= form_tag()  %>
+    <tr>
+      <td>Select category:</td>
+      <td><%= collection_select(:category, :id, Category.find_all_by_user_id(current_user.id), :id, :name, {prompt: true, :selected => @selected_category }) %></td>
+    </tr>
+    <tr>
+      <td>Select date from:</td>
+      <td><%= select_date @date_from, :prefix => 'date_from' %></td>
+    </tr>
+    <tr>
+      <td>Select date to:</td>
+      <td><%= select_date @date_to, :prefix => 'date_to' %></td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2"><%= submit_tag "Filter" %></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>Date</td>
+        <td>Price</td>
+        <td>Description</td>
+        <td>Category</td>
+    </tr>
+    <% @move.each do |move| %>
+        <tr>
+            <td><%= move.date %></td>
+            <td><%= move.price %></td>
+            <td><%= move.description %></td>
+            <td><%= move.category.name %></td>
+        </tr>
+    <% end %>
+</table>
