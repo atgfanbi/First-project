@@ -24,7 +24,7 @@ test:
   adapter: postgresql #mysql2
   encoding: utf8
   encoding: utf8
-  database: pei_test
+  database: pei
   pool: 5
   username: root
   password: '1'
@@ -33,7 +33,7 @@ test:
 production:
   adapter: postgresql #mysql2
   encoding: utf8
-  database: pei_production
+  database: pei
   pool: 5
   username: root
   password: '1'
