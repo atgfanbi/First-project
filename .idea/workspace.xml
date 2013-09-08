@@ -28,7 +28,7 @@
     <file path="/welcome_controller.rb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378649458923" ignored="false" />
     <file path="/database.yml" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378644353400" ignored="false" />
     <file path="/production.rb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378653462744" ignored="false" />
-    <file path="/application.rb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378654289267" ignored="false" />
+    <file path="/application.rb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378654445480" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +137,7 @@
       <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="55" selection-start="486" selection-end="486" vertical-scroll-proportion="0.26825634">
+            <state line="22" column="45" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.4918033">
               <folding />
             </state>
           </provider>
@@ -1057,7 +1057,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="55" selection-start="486" selection-end="486" vertical-scroll-proportion="0.26825634">
+        <state line="22" column="45" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.4918033">
           <folding />
         </state>
       </provider>
