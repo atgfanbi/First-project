@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
+# GEMS FOR Heroku
+gem 'unicorn'
+gem 'pg'
+# ^=============^
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
