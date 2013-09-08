@@ -8,7 +8,7 @@
     <file path="/user.rb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1377775138979" ignored="false" />
     <file path="/application.html.erb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378634908258" ignored="false" />
     <file path="/styles.css" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1377772573707" ignored="false" />
-    <file path="/application.css" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378639377936" ignored="false" />
+    <file path="/application.css" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378651796286" ignored="false" />
     <file path="/index.html.erb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378633083054" ignored="false" />
     <file path="/20130829111406_create_categories.rb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1377783633798" ignored="false" />
     <file path="/category.rb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378120178446" ignored="false" />
@@ -17,14 +17,14 @@
     <file path="/new.erb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1377782065393" ignored="false" />
     <file path="/categories_controller.rb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1377794475841" ignored="false" />
     <file path="/show.erb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378638635704" ignored="false" />
-    <file path="/index.erb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378640338937" ignored="false" />
+    <file path="/index.erb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378651888558" ignored="false" />
     <file path="/edit.erb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1377799731690" ignored="false" />
     <file path="/_form.erb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1377796998580" ignored="false" />
     <file path="/20130829134049_create_money_moves.rb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1377797723276" ignored="false" />
     <file path="/money_move.rb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1377785632874" ignored="false" />
     <file path="/money_moves_controller.rb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378119180497" ignored="false" />
     <file path="/_money_move.erb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378638556566" ignored="false" />
-    <file path="/report_controller.rb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378642641338" ignored="false" />
+    <file path="/report_controller.rb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378651650723" ignored="false" />
     <file path="/welcome_controller.rb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378649458923" ignored="false" />
     <file path="/database.yml" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378644353400" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,6 +69,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="32" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="report_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/report_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="18" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/report/index.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="20" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.86990595">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="boot.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/boot.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,28 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="29" selection-start="321" selection-end="321" vertical-scroll-proportion="0.22222222">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environment.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="153" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+            <state line="9" column="46" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,13 +151,13 @@
         <option value="$PROJECT_DIR$/app/views/money_moves/_money_move.erb" />
         <option value="$PROJECT_DIR$/app/views/categories/show.erb" />
         <option value="$PROJECT_DIR$/app/views/categories/index.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/report/index.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/report_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/app/controllers/report_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/views/report/index.erb" />
       </list>
     </option>
   </component>
@@ -895,27 +904,12 @@
         <state line="5" column="23" selection-start="186" selection-end="186" vertical-scroll-proportion="-3.125" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="40" selection-start="1774" selection-end="1774" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/helpers/date_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="413" column="10" selection-start="27332" selection-end="27332" vertical-scroll-proportion="0.67220545" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/report/index.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/report_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="104" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -929,16 +923,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="50" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0">
+        <state line="14" column="153" selection-start="757" selection-end="757" vertical-scroll-proportion="0.31722054">
           <folding />
         </state>
       </provider>
@@ -950,9 +937,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="153" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+        <state line="9" column="46" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="50" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/report_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="18" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="32" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -964,9 +979,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/report/index.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="29" selection-start="321" selection-end="321" vertical-scroll-proportion="0.22222222">
+        <state line="37" column="20" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.86990595">
           <folding />
         </state>
       </provider>
