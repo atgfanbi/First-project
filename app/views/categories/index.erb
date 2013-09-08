@@ -1,25 +1,40 @@
-<h3>Current incomes categories:</h3>
-<table>
-<% @categories.each do |category| %>
-<% if(category.is_income) %>
+<div style="margin: 20px 0;">
+<table align="center" cellspacing="0" cellpadding="0">
     <tr>
-        <td><%= link_to category.name, category_path(category), class: "link_main" %></td>
-        <td><%= link_to 'Edit', edit_category_path(category) %></td>
-        <td><%= link_to 'Destroy', category_path(category), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td class="cap">Name</td>
+        <td class="cap">Count</td>
+        <td class="cap">Total price</td>
+        <td></td>
+        <td></td>
     </tr>
-<% end %>
-<% end %>
+    <tr>
+        <td colspan="5"><strong>Current incomes categories:</strong></td>
+    </tr>
+    <% @categories.each do |category| %>
+        <% if(category.is_income) %>
+            <tr class="<%= cycle('even', 'odd') -%>">
+                <td><%= link_to category.name, category_path(category), class: "link_main" %></td>
+                <td><%= category.money_moves.count %></td>
+                <td><%= category.money_moves.sum(&:price) %></td>
+                <td><%= link_to 'Edit', edit_category_path(category) %></td>
+                <td><%= link_to 'Destroy', category_path(category), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            </tr>
+        <% end %>
+    <% end %>
+    <tr>
+        <td colspan="5"><strong>Current expenses categories:</strong></td>
+    </tr>
+    <% @categories.each do |category| %>
+        <% if(!category.is_income) %>
+            <tr class="<%= cycle('even', 'odd') -%>">
+                <td><%= link_to category.name, category_path(category), class: "link_main"  %></td>
+                <td><%= category.money_moves.count %></td>
+                <td><%= category.money_moves.sum(&:price) %></td>
+                <td><%= link_to 'Edit', edit_category_path(category) %></td>
+                <td><%= link_to 'Destroy', category_path(category), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            </tr>
+        <% end %>
+    <% end %>
 </table>
-<h3>Current expenses categories:</h3>
-<table>
-  <% @categories.each do |category| %>
-      <% if(!category.is_income) %>
-          <tr>
-            <td><%= link_to category.name, category_path(category), class: "link_main"  %></td>
-            <td><%= link_to 'Edit', edit_category_path(category) %></td>
-            <td><%= link_to 'Destroy', category_path(category), method: :delete, data: { confirm: 'Are you sure?' } %></td>
-          </tr>
-      <% end %>
-  <% end %>
-</table>
+</div>
 <p><%= link_to 'New category', new_category_path %></p>

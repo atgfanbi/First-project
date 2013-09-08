@@ -1,1 +1,26 @@
-<h3>Welcome at site of Personal incomes and expenses!</h3>
+<div class="center">
+    <h3>Welcome at site of Personal incomes and expenses!</h3>
+    <h2>Current statistics:</h2>
+    <table align="center">
+      <tr>
+        <td>Total users:</td>
+        <td><%= @users_count %></td>
+      </tr>
+      <tr>
+        <td>Income categories per user:</td>
+        <td><%= @in_per_user %></td>
+      </tr>
+      <tr>
+        <td>Expense categories per user:</td>
+        <td><%= @ex_per_user %></td>
+      </tr>
+      <tr>
+        <td>Middle income category:</td>
+        <td><%= @mid_in %></td>
+      </tr>
+      <tr>
+        <td>Middle expense category:</td>
+        <td><%= @mid_ex %></td>
+      </tr>
+    </table>
+</div>

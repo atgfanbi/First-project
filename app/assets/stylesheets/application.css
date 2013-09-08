@@ -11,22 +11,54 @@
  *= require_self
  *= require_tree .
  */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+    font-size: 15px;
+    line-height: 25px;
+}
 #l1{
     width: 850px;
     margin: 0px auto;
+    background-color: #eaeaea;
+    padding: 7px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
 }
 .left {text-align: right;}
 .alert {font-weight: bold;}
 .success {color: green;}
 .error {color: red;}
 td {padding: 5px 10px;}
-a {color: blue;}
-a:hover {color: red;}
+a {
+    color: #1571ff;
+    text-decoration: none;
+}
+a:hover {color: #9e0003;}
 .under {text-decoration: underline;}
 .bold {font-weight: bold;}
-.link_main {color:black;}
-.border {border: 1px solid grey;}
+.border, .border tr, .border td {border: 1px solid grey;}
+.border td {padding: 3px 8px;}
 .block {
     display: inline-block;
     padding: 5px 10px;
 }
+.center {text-align: center;}
+.main_links {margin-left: 50px;}
+.main_link {
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: "arial";
+    color: rgba(10, 84, 127, 0.99);
+    text-decoration: underline;
+}
+.line {height: 3px;background-color: #0a547f;width: 100%;margin: 7px 0;}
+.content {min-height: 700px;}
+.rights {text-align: center;color: grey;}
+.odd {background-color: #f4f4f4;}
+.even {background-color: #e5e5e5;}
+.cap {font-weight: bold;font-size: 16px;}
+
+
