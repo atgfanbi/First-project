@@ -26,6 +26,7 @@
     <file path="/_money_move.erb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378638556566" ignored="false" />
     <file path="/report_controller.rb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378642641338" ignored="false" />
     <file path="/welcome_controller.rb" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378639524030" ignored="false" />
+    <file path="/database.yml" changelist="89be720f-d617-4105-a8db-bfdabc321572" time="1378644353400" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +51,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="8" selection-start="70" selection-end="70" vertical-scroll-proportion="0.06437768">
+            <state line="28" column="50" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="33" column="29" selection-start="842" selection-end="842" vertical-scroll-proportion="0.7081545">
               <folding />
             </state>
           </provider>
@@ -78,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/report/show.erb" />
         <option value="$PROJECT_DIR$/app/controllers/money_moves_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/category.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
@@ -94,6 +94,7 @@
         <option value="$PROJECT_DIR$/app/views/report/index.erb" />
         <option value="$PROJECT_DIR$/app/controllers/report_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -921,16 +922,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="28" column="50" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="8" selection-start="70" selection-end="70" vertical-scroll-proportion="0.06437768">
+        <state line="33" column="29" selection-start="842" selection-end="842" vertical-scroll-proportion="0.7081545">
           <folding />
         </state>
       </provider>
