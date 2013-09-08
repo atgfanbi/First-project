@@ -31,7 +31,7 @@ test:
   socket: /var/run/mysqld/mysqld.sock
 
 production:
-  adapter: postgresql #mysql2
+  adapter: mysql2
   encoding: utf8
   database: pei
   pool: 5
